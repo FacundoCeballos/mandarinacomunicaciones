@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="icon" type="image/jpg" href="img/mandarina.png">
+</head>
+<body class="fondo body">
+    <header>
+        <a href="index.html">
+            <img height="144px" width="260px" src="img/logomandarina (1).png" alt="logo-del-comercio"><a href="index.html"></a>
+        </a>
+        <br>
+        <br>
+        <div class="flexNav menu fin">
+            <ul>
+                <li><a href="conocenos.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a>
+                <li><a href="planes.html">Planes</a>
+                <li><a href="tips.html">Tips</a>
+                <li><a href="contacto.html">Contactanos</a></li>
+            </ul>
+        </div>
+    </header>
+    <br>
+    <br>
+
+    <div class="text-center">
+        <h1 class="h1_contacto">¡Comunicate con nosotros!</h1>
+    </div>
+    <div class="text-left">
+        <h2 class="h2_contacto">En Mandarina Comunicaciones podemos encargarnos de tus redes sociales, difundirlas y hacerlas crecer de manera
+            responsable. 
+            Somos una consultora de Comunicación digital que se encarga de ayudar a potenciar emprendimientos a traves de :
+            Couching + Plan Comunicacional + Publicidad+ Tips para tus redes
+            ¿Queres saber más? Charlemos. Completa el formulario o escribinos directamente a nuestro whatsapp.</h2>
+    </div>
+    <br>
+    <br>
+
+    <!--Formularios-->
+    <h3 class="h3_contacto">¿Queres un presupuesto personalizado?Completa tus datos y te contactaremos la brevedad</h3>
+    <div class="row">
+        <div class="flexContactos col-md-12">
+            <form action="codigo.php" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text">
+                <br>
+                <label for="name">Apellido</label>
+                <input type="text">
+                <br>
+                <label for="contacto">Dirección de email</label>
+                <input type="text">
+                <br>
+                <p>País de residencia</p>
+                <select name="país">
+                    <option value="argentina">Argentina</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="chile">Chile</option>
+                    <option value="brasil">Brasil</option>
+                </select>
+                <p>¿Cual es el motivo por el que solicitas contacto?</p>
+                <textarea name="Comentarios" id="" cols="40" rows="5"></textarea>
+                <br>
+                <input type="submit" value="Enviar formulario de consulta">
+                <input type="reset" value="Cancelar formulario">
+            </form>
+        </div>
+    </div>
+</body>
+<a href="https://api.whatsapp.com/send?phone=2212269809" class="btn-wsp" target="_blank">
+    <img src="img/whatsapp.png" alt="whatsapp" class="btn-wsp">
+</a>
+<footer class="footer">
+    <nav>
+        <a href="https://www.instagram.com/mandarinacomunicaciones/" target="_blank">
+        <img src="img/logotipo-de-instagram.png" width="30px" height="30px" alt="instagram">
+        </a>
+    </nav>
+        <p>@Copyright Sitio hecho por Facundo Ceballos</p><br>
+</footer>
+</html>
